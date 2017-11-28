@@ -1,0 +1,42 @@
+body {
+  background-color: #999999;
+}
+
+.Button {
+  /*Button*/
+  width: 200px;
+  height: 43px;
+  background-color: #666666;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5) 0px -2px 0px rgba(255, 255, 255, 0.4);
+  /*Text*/
+  font-family: Arial, sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 12px;
+  color: #000000;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+#Button1:hover {
+  color: #CCCCCC;
+  background-color: #0033FF;
+}
+
+#Button2:active {
+  color: #CCCCCC;
+  background-color: #0033FF;
+}
+
+#Button3:hover {
+  color: #CCCCCC;
+  background-color: #0099FF;
+}
+
+#Button3:active {
+  color: #CCCCCC;
+  background-color: #0033FF;
+  transition-property: background-color;
+  transition-duration: 1s;
+}

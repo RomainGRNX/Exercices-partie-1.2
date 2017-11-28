@@ -1,0 +1,22 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+
+#Bg1 {
+  background: url("../Imgs/background1.png");
+  background-repeat: repeat;
+}
+
+#Bg2 {
+  background: url("../Imgs/background2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Bg3 {
+  background: url("../Imgs/background3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+}
